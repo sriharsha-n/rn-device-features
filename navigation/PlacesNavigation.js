@@ -9,7 +9,7 @@ import NewPlaceScreen from "../screens/NewPlaceScreen";
 
 const PlaceNavigator = createStackNavigator(
   {
-    Places: PlaesListScreen,
+    Places: PlacesListScreen,
     PlaceDetail: PlaceDetailScreen,
     NewPlace: NewPlaceScreen,
     Map: MapScreen,
@@ -24,4 +24,4 @@ const PlaceNavigator = createStackNavigator(
   }
 );
 
-export default createAppContainer(PlaceNavigator);
+export default  createAppContainer(PlaceNavigator);

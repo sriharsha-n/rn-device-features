@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { StyleSheet, ScrollView, TextInput, Text, View } from "react-native";
 import { HeaderTitle } from "react-navigation-stack";
+import useDispatch from 'react-redux';
+
 
 const NewPlaceScreen = () => {
 

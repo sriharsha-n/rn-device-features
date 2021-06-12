@@ -1,7 +1,6 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-
-import HeaderButtons from "../components/HeaderButton";
+import { StyleSheet,HeaderButtons,Item, Text, View } from "react-native";
+import HeaderButton from "../components/HeaderButton";
 
 const PlaceListScreen = () => {
   return (
@@ -15,7 +14,7 @@ PlaceListScreen.navigationOptions = (navData) => {
   return {
     headerTitle: "All Places",
     headerRight: (
-      <HeaderButtons HeaderButtonComponent={HeaderButtonComponent}>
+      <HeaderButtons HeaderButtonComponent={HeaderButton}>
         <Item
           title="Add Places"
           iconName="md-add"
